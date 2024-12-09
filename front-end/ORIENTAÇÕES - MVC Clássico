@@ -1,0 +1,39 @@
+Estrutura do Projeto
+
+project/
+├── index.html                     # View principal (HTML)
+├── assets/                        # Pasta para arquivos estáticos
+│   ├── css/
+│   │   ├── styles.css             # Arquivo de estilos
+├── scripts/                       # Scripts de lógica (JS)
+│   ├── model/
+│   │   ├── dashboardModel.js      # Gerenciamento de dados e API para o dashboard
+│   ├── view/
+│   │   ├── dashboardView.js       # Manipulação da interface do dashboard
+│   ├── controller/
+│   │   ├── dashboardController.js # Integração entre Model e View
+
+
+
+Fluxo do Código
+
+1 - HTML (View Principal):
+Define a interface com os elementos necessários (campo de texto, botão e área de resultados).
+Carrega o script principal do controlador.
+
+2 - CSS:
+Aplica estilos à interface, como layout e cores.
+
+
+3 - Model (dashboardModel.js):
+Gerencia a lógica de comunicação com a API.
+Retorna os resultados para o Controller.
+
+4 - View (dashboardView.js):
+Manipula os elementos DOM diretamente.
+Fornece métodos para obter valores de entrada e exibir resultados.
+
+
+5  - Controller (dashboardController.js):
+Faz a ponte entre Model e View.
+Responde aos eventos do View e usa o Model para interagir com a API.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Prediction</title>
+  <link rel="stylesheet" href="mvc/assets/css/button.css">
+  <link rel="stylesheet" href="mvc/assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Descubra o gênero de sua música favorita!</h1>
+    <!-- Input Text Area -->
+    <div class="brutalist-container" style="margin-top: 40px;">
+      <textarea class="brutalist-input smooth-type" type="input-text" id="caixa-musica"></textarea>
+      <label class="brutalist-label">Insira a música escolhida:</label>
+    </div>
+        <!-- Button -->
+    <button id="predict-btn" class="button">Descobrir Gênero</button>
+    <!-- Result Area -->
+    <div id="result" class="result"></div>
+  </div>
+
+  <script type="module" src="mvc/scripts/controller/aiController.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Criar o Projeto: Use o comando abaixo para iniciar um projeto Next.js:
+
+npx create-next-app@latest dashboard-template
+cd dashboard-template
+
+Instalar Dependências:
+npm install bootstrap
+
+Executar com comando
+yarn dev
+
